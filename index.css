@@ -6,16 +6,16 @@ body {
 }
 
 #logo {
-    width: 10%;
-    /* Establece el ancho al 100% del contenedor */
+    width: 5%;
+    /* Hacer que el logo ocupe el 5% del ancho del contenedor */
     height: auto;
-    /* Establece la altura automática para mantener la proporción */
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    /* Reducir el espacio interior del header a 10px */
     text-align: center;
 }
 
@@ -25,15 +25,62 @@ header {
     padding: 20px;
 }
 
-.teams h2{
+.teams h2 {
     color: #fff;
 }
 
 .teams {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    /* 4 filas */
     gap: 20px;
 }
+
+.team9 img,
+.team10 img,
+.team12 img {
+    padding-top: 10%;
+}
+
+.team9 h3,
+.team10 h3,
+.team12 h3 {
+    padding-top: 9%;
+}
+
+.team1 a,
+.team2 a,
+.team3 a,
+.team4 a,
+.team5 a,
+.team6 a,
+.team7 a,
+.team8 a,
+.team9 a,
+.team10 a,
+.team11 a,
+.team12 a {
+    color: inherit; /* Hereda el color del texto del contenedor padre */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.team1 a:hover,
+.team2 a:hover, 
+.team3 a:hover, 
+.team4 a:hover, 
+.team5 a:hover, 
+.team6 a:hover, 
+.team7 a:hover, 
+.team8 a:hover, 
+.team9 a:hover,  
+.team10 a:hover, 
+.team11 a:hover, 
+.team12 a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+}
+
+
 
 .team1,
 .team2,
@@ -51,9 +98,75 @@ header {
     padding: 10px;
     text-align: center;
     background-color: #fff;
+    border: 2px solid #ccc; /* Borde sólido de 1px */
+    border-radius: 5px;
 }
 
 .team1 img {
     max-width: 100%;
     height: auto;
+}
+
+.team1 {
+    background-image: linear-gradient(to bottom, #000000, #D4AC0D);
+}
+
+.team2 {
+    background-image: linear-gradient(to bottom, #000000, #148F77);
+}
+
+.team3 {
+    background-image: linear-gradient(to bottom, #000000, #3F2CCA);
+}
+
+.team4 {
+    background-image: linear-gradient(to bottom, #000000, #e60e56);
+}
+
+.team5 {
+    background-image: linear-gradient(to bottom, #000000, #EE0A3A);
+}
+
+.team6 {
+    background-image: linear-gradient(to bottom, #000000, #FE70BD);
+}
+
+.team7 {
+    background-image: linear-gradient(to bottom, #000000, #95A5A6);
+}
+
+.team8 {
+    background-image: linear-gradient(to bottom, #000000, #BE7E1C);
+}
+
+.team9 {
+    background-image: linear-gradient(to bottom, #000000, #ffffff);
+}
+
+.team10 {
+    background-image: linear-gradient(to bottom, #000000, #FE48AA);
+}
+
+.team11 {
+    background-image: linear-gradient(to bottom, #000000, #F1C40F);
+}
+
+.team12 {
+    background-image: linear-gradient(to bottom, #000000, #F4D03F);
+}
+
+.team1:hover img,
+.team2:hover img,
+.team3:hover img,
+.team4:hover img,
+.team5:hover img,
+.team6:hover img,
+.team7:hover img,
+.team8:hover img,
+.team9:hover img,
+.team10:hover img,
+.team11:hover img,
+.team12:hover img {
+    transform: scale(1.1);
+    /* Escalar el cuadro al 110% en hover */
 }
