@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página</title>
+    <title>Rayo de Barcelona</title>
 
     <style>
         body {
@@ -14,6 +14,10 @@
             /* Color de texto blanco */
             font-family: Arial, sans-serif;
             /* Fuente del texto */
+        }
+
+        a{
+            color: white;
         }
 
         .container {
@@ -117,6 +121,33 @@
             height: auto;
             /* Altura automática para mantener la proporción */
         }
+
+        @media only screen and (max-width: 600px) {
+            .header {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .header img {
+                width: 19px;
+                /* Ancho de las imágenes */
+                height: auto;
+                /* Altura automática para mantener la proporción */
+            }
+
+            .header a {
+                margin: 5px;
+            }
+
+            .top-section {
+                text-align: center;
+            }
+
+            .top-section img {
+                width: 100px;
+                margin-right: 0;
+            }
+        }
     </style>
 </head>
 
@@ -126,11 +157,11 @@
         <a href="#"><img src="./logosEquiposKingLeague/Ultimate_Móstoles.png" alt="Mostoles"></a>
         <a href="#"><img src="./logosEquiposKingLeague/porcinos.png" alt="Porcinos"></a>
         <a href="#"><img src="./logosEquiposKingLeague/pio.svg" alt="Pio"></a>
-        <img src="./logosEquiposKingLeague/jijantes.png" alt="Jijantes"></a>
+        <a href="#"><img src="./logosEquiposKingLeague/jijantes.png" alt="Jijantes"></a>
         <a href="#"><img src="./logosEquiposKingLeague/elBarrio.png" alt="Barrio"></a>
         <a href="#"><img src="./logosEquiposKingLeague/rayoBarcelona.png" alt="Rayo"></a>
         <a href="#"><img src="./logosEquiposKingLeague/Los_troncos_fc.png" alt="Troncos"></a>
-        <img src="./logosEquiposKingLeague/xbuyer-team-logo.png" alt="XBuyer"></a>
+        <a href="#"><img src="./logosEquiposKingLeague/xbuyer-team-logo.png" alt="XBuyer"></a>
         <a href="#"><img src="./logosEquiposKingLeague/KUNISPORT_LOGO.png" alt="Kunisports"></a>
         <a href="#"><img src="./logosEquiposKingLeague/aniquiladores.png" alt="Aniquiladores"></a>
         <a href="#"><img src="./logosEquiposKingLeague/1K_F.C_logo.png" alt="1K"></a>
@@ -238,6 +269,8 @@
             </tbody>
         </table>
     </div>
+
+    <a href="./index.html">Volver al menú</a>
 </body>
 
 </html>
