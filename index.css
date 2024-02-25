@@ -120,11 +120,11 @@ header {
 }
 
 .team4 {
-    background-image: linear-gradient(to bottom, #000000, #e60e56);
+    background-image: linear-gradient(to bottom, #000000, #ff0000);
 }
 
 .team5 {
-    background-image: linear-gradient(to bottom, #000000, #EE0A3A);
+    background-image: linear-gradient(to bottom, #000000, #160d99);
 }
 
 .team6 {
@@ -132,15 +132,15 @@ header {
 }
 
 .team7 {
-    background-image: linear-gradient(to bottom, #000000, #95A5A6);
+    background-image: linear-gradient(to bottom, #000000, #107018);
 }
 
 .team8 {
-    background-image: linear-gradient(to bottom, #000000, #BE7E1C);
+    background-image: linear-gradient(to bottom, #000000, #484849);
 }
 
 .team9 {
-    background-image: linear-gradient(to bottom, #000000, #ffffff);
+    background-image: linear-gradient(to bottom, #000000, #2835f3);
 }
 
 .team10 {
@@ -148,11 +148,11 @@ header {
 }
 
 .team11 {
-    background-image: linear-gradient(to bottom, #000000, #F1C40F);
+    background-image: linear-gradient(to bottom, #000000, #f1970f);
 }
 
 .team12 {
-    background-image: linear-gradient(to bottom, #000000, #F4D03F);
+    background-image: linear-gradient(to bottom, #000000, #ffffff);
 }
 
 .team1:hover img,
