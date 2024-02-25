@@ -54,6 +54,7 @@ th {
 
 tbody tr:nth-child(even) {
     background-color: #2dc039;
+    color: #000;
     /* Fondo oscuro para filas pares */
 }
 
@@ -64,6 +65,7 @@ tbody tr:nth-child(odd) {
 
 tbody tr:hover {
     background-color: #242323;
+    color: #fff;
     /* Cambio de color al pasar el mouse */
 }
 
@@ -76,18 +78,22 @@ table img {
 
 .por {
     background-color: rgb(255, 87, 27);
+    color: #000;
 }
 
 .def {
     background-color: rgb(236, 86, 86);
+    color: #000;
 }
 
 .med {
     background-color: rgb(91, 241, 91);
+    color: #000;
 }
 
 .del {
     background-color: rgb(75, 75, 243);
+    color: white;
 }
 
 .header {
