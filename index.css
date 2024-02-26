@@ -73,7 +73,7 @@ header {
 .saiyans a:hover,
 .pioFC a:hover {
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 
 
@@ -98,51 +98,51 @@ header {
 }
 
 .rayoBarcelona {
-    background-image: linear-gradient(to bottom, #000000, #D4AC0D);
+    background-image: linear-gradient(to bottom, #D4AC0D, #000000);
 }
 
 .elBarrio {
-    background-image: linear-gradient(to bottom, #000000, #148F77);
+    background-image: linear-gradient(to bottom, #148F77, #000000);
 }
 
 .UnokFC {
-    background-image: linear-gradient(to bottom, #000000, #3F2CCA);
+    background-image: linear-gradient(to bottom, #3F2CCA, #000000);
 }
 
 .aniquiladores {
-    background-image: linear-gradient(to bottom, #000000, #ff0000);
+    background-image: linear-gradient(to bottom, #ff0000, #000000);
 }
 
 .jijantes {
-    background-image: linear-gradient(to bottom, #000000, #160d99);
+    background-image: linear-gradient(to bottom, #160d99, #000000);
 }
 
 .kuniSports {
-    background-image: linear-gradient(to bottom, #000000, #FE70BD);
+    background-image: linear-gradient(to bottom, #FE70BD, #000000);
 }
 
 .troncos {
-    background-image: linear-gradient(to bottom, #000000, #107018);
+    background-image: linear-gradient(to bottom, #107018, #000000);
 }
 
 .ultimateMostoles {
-    background-image: linear-gradient(to bottom, #000000, #484849);
+    background-image: linear-gradient(to bottom, #484849, #000000);
 }
 
 .xbuyerTeam {
-    background-image: linear-gradient(to bottom, #000000, #2835f3);
+    background-image: linear-gradient(to bottom, #2835f3, #000000);
 }
 
 .porcinos {
-    background-image: linear-gradient(to bottom, #000000, #FE48AA);
+    background-image: linear-gradient(to bottom, #FE48AA, #000000);
 }
 
 .saiyans {
-    background-image: linear-gradient(to bottom, #000000, #f1970f);
+    background-image: linear-gradient(to bottom, #f1970f, #000000);
 }
 
 .pioFC {
-    background-image: linear-gradient(to bottom, #000000, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #000000);
 }
 
 .rayoBarcelona:hover img,

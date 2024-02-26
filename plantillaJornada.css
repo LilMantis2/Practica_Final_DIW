@@ -19,6 +19,7 @@ h2{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    padding-top: 4%;
 }
 
 .match {
@@ -74,4 +75,34 @@ h2{
 
 #logo{
     width: 5%;
+}
+footer {
+    background-color: #000000;
+    border: 2px solid #ccc;
+}
+
+.multimedia {
+    text-align: center;
+    padding: 5%;
+}
+
+.multimedia a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.multimedia i {
+    margin: 0 1%;
+    /* Modifico el valor de como de separado quiero el contenido social multimedia */
+}
+
+.multimedia a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    padding-left: 1%;
+    color: gray;
 }

@@ -7,6 +7,39 @@ body {
     /* Fuente del texto */
 }
 
+
+
+footer {
+    background-color: #000000;
+    border: 2px solid #ccc;
+}
+
+.multimedia {
+    text-align: center;
+    padding: 5%;
+}
+
+.multimedia a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.multimedia i {
+    margin: 0 1%;
+    /* Modifico el valor de como de separado quiero el contenido social multimedia */
+}
+
+.multimedia a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    padding-left: 1%;
+    color: gray;
+}
+
 a{
     color: white;
 }
