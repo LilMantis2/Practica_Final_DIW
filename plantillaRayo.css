@@ -1,10 +1,7 @@
 body {
-    background-image: linear-gradient(to bottom, #000, #ca9400);
-    /* Color de fondo oscuro */
+    background-image: linear-gradient(to bottom, #000, #ca9400, #ca9400);
     color: #fff;
-    /* Color de texto blanco */
     font-family: Arial, sans-serif;
-    /* Fuente del texto */
 }
 
 
@@ -27,7 +24,6 @@ footer {
 
 .multimedia i {
     margin: 0 1%;
-    /* Modifico el valor de como de separado quiero el contenido social multimedia */
 }
 
 .multimedia a:hover {
@@ -46,27 +42,17 @@ a{
 
 .container {
     max-width: 800px;
-    /* Ancho máximo del contenedor */
     margin: 20px auto;
-    /* Margen en los lados */
 }
 
 .top-section img {
     width: 200px;
-    /* Tamaño grande para las imágenes */
     height: auto;
     margin-right: 20px;
-    /* Margen entre las imágenes */
-}
-
-.top-section p {
-    font-size: 24px;
-    /* Tamaño de fuente grande para el texto */
 }
 
 table {
     margin-top: 20px;
-    /* Margen superior para la tabla */
     border-collapse: collapse;
     width: 100%;
 }
@@ -74,39 +60,31 @@ table {
 th,
 td {
     border: 1px solid #fff;
-    /* Borde blanco para las celdas */
     padding: 10px;
-    /* Espaciado interno */
     text-align: center;
 }
 
 th {
     background-color: #444;
-    /* Fondo oscuro para las cabeceras */
 }
 
 tbody tr:nth-child(even) {
     background-color: #fdc11a;
     color: #000;
-    /* Fondo oscuro para filas pares */
 }
 
 tbody tr:nth-child(odd) {
     background-color: #7e641d;
     color: #ffffff;
-    /* Fondo oscuro para filas impares */
 }
 
 tbody tr:hover {
     background-color: #242323;
     color: #fff;
-    /* Cambio de color al pasar el mouse */
 }
 
-/* Tamaño de las imágenes en la tabla */
 table img {
     width: 30%;
-    /* Tamaño relativo del 30% */
     height: auto;
 }
 
@@ -132,25 +110,18 @@ table img {
 
 .header {
     display: flex;
-    /* Para alinear elementos horizontalmente */
     justify-content: space-around;
-    /* Para distribuir uniformemente los elementos */
     align-items: center;
-    /* Para alinear verticalmente */
 }
 
 .header a {
     display: inline-block;
-    /* Para permitir ajustes de tamaño y posición */
     margin: 0 10px;
-    /* Espaciado entre las imágenes */
 }
 
 .header img {
     width: 40px;
-    /* Ancho de las imágenes */
     height: auto;
-    /* Altura automática para mantener la proporción */
 }
 
 @media only screen and (max-width: 600px) {
@@ -161,9 +132,7 @@ table img {
 
     .header img {
         width: 19px;
-        /* Ancho de las imágenes */
         height: auto;
-        /* Altura automática para mantener la proporción */
     }
 
     .header a {
