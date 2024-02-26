@@ -195,6 +195,11 @@ footer {
     padding-top: 3%;
 }
 
+.botonJornada{
+    display: flex;
+ 
+}
+
 @media only screen and (max-width: 815px) {
     .teams {
         grid-template-columns: repeat(2, 1fr);

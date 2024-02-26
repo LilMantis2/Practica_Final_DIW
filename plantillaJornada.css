@@ -71,3 +71,7 @@ h2{
 .team:hover img {
     transform: scale(1.1);
 }
+
+#logo{
+    width: 5%;
+}
