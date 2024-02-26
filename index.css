@@ -195,14 +195,15 @@ footer {
     padding-top: 3%;
 }
 
-.botones{
+.boton{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     
 }
 .botonJornada{
     border: 2px solid #000000;
-    border-radius: 5px;
+    border-radius: 10px;
+   background-image: linear-gradient(to right, #F95E06, #F9D806 );
 }
 .botonJornada a{
     text-decoration: none;
