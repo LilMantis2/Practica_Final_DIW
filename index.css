@@ -7,15 +7,13 @@ body {
 
 #logo {
     width: 5%;
-    /* Hacer que el logo ocupe el 5% del ancho del contenedor */
     height: auto;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px;
-    /* Reducir el espacio interior del header a 10px */
+    padding: 1%;
     text-align: center;
 }
 
@@ -25,148 +23,214 @@ header {
     padding: 20px;
 }
 
-.teams h2 {
-    color: #fff;
-}
-
 .teams {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
     /* 4 filas */
     gap: 20px;
+    align-items: center;
 }
 
-.team9 img,
-.team10 img,
-.team12 img {
+.xbuyerTeam img,
+.porcinos img,
+.pioFC img {
     padding-top: 10%;
 }
 
-.team9 h3,
-.team10 h3,
-.team12 h3 {
+.xbuyerTeam h2,
+.porcinos h2,
+.pioFC h2 {
     padding-top: 9%;
 }
 
-.team1 a,
-.team2 a,
-.team3 a,
-.team4 a,
-.team5 a,
-.team6 a,
-.team7 a,
-.team8 a,
-.team9 a,
-.team10 a,
-.team11 a,
-.team12 a {
-    color: inherit; /* Hereda el color del texto del contenedor padre */
-    text-decoration: none; /* Elimina el subrayado */
+.rayoBarcelona a,
+.elBarrio a,
+.UnokFC a,
+.aniquiladores a,
+.jijantes a,
+.kuniSports a,
+.troncos a,
+.ultimateMostoles a,
+.xbuyerTeam a,
+.porcinos a,
+.saiyans a,
+.pioFC a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-.team1 a:hover,
-.team2 a:hover, 
-.team3 a:hover, 
-.team4 a:hover, 
-.team5 a:hover, 
-.team6 a:hover, 
-.team7 a:hover, 
-.team8 a:hover, 
-.team9 a:hover,  
-.team10 a:hover, 
-.team11 a:hover, 
-.team12 a:hover {
-    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+.rayoBarcelona a:hover,
+.elBarrio a:hover,
+.UnokFC a:hover,
+.aniquiladores a:hover,
+.jijantes a:hover,
+.kuniSports a:hover,
+.troncos a:hover,
+.ultimateMostoles a:hover,
+.xbuyerTeam a:hover,
+.porcinos a:hover,
+.saiyans a:hover,
+.pioFC a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 
 
-.team1,
-.team2,
-.team3,
-.team4,
-.team5,
-.team6,
-.team7,
-.team8,
-.team9,
-.team10,
-.team11,
-.team12 {
-    border: 1px solid #ccc;
+.rayoBarcelona,
+.elBarrio,
+.UnokFC,
+.aniquiladores,
+.jijantes,
+.kuniSports,
+.troncos,
+.ultimateMostoles,
+.xbuyerTeam,
+.porcinos,
+.saiyans,
+.pioFC {
     padding: 10px;
     text-align: center;
     background-color: #fff;
-    border: 2px solid #ccc; /* Borde sólido de 1px */
+    border: 2px solid #ccc;
     border-radius: 5px;
 }
 
-.team1 img {
-    max-width: 100%;
-    height: auto;
-}
-
-.team1 {
+.rayoBarcelona {
     background-image: linear-gradient(to bottom, #000000, #D4AC0D);
 }
 
-.team2 {
+.elBarrio {
     background-image: linear-gradient(to bottom, #000000, #148F77);
 }
 
-.team3 {
+.UnokFC {
     background-image: linear-gradient(to bottom, #000000, #3F2CCA);
 }
 
-.team4 {
+.aniquiladores {
     background-image: linear-gradient(to bottom, #000000, #ff0000);
 }
 
-.team5 {
+.jijantes {
     background-image: linear-gradient(to bottom, #000000, #160d99);
 }
 
-.team6 {
+.kuniSports {
     background-image: linear-gradient(to bottom, #000000, #FE70BD);
 }
 
-.team7 {
+.troncos {
     background-image: linear-gradient(to bottom, #000000, #107018);
 }
 
-.team8 {
+.ultimateMostoles {
     background-image: linear-gradient(to bottom, #000000, #484849);
 }
 
-.team9 {
+.xbuyerTeam {
     background-image: linear-gradient(to bottom, #000000, #2835f3);
 }
 
-.team10 {
+.porcinos {
     background-image: linear-gradient(to bottom, #000000, #FE48AA);
 }
 
-.team11 {
+.saiyans {
     background-image: linear-gradient(to bottom, #000000, #f1970f);
 }
 
-.team12 {
+.pioFC {
     background-image: linear-gradient(to bottom, #000000, #ffffff);
 }
 
-.team1:hover img,
-.team2:hover img,
-.team3:hover img,
-.team4:hover img,
-.team5:hover img,
-.team6:hover img,
-.team7:hover img,
-.team8:hover img,
-.team9:hover img,
-.team10:hover img,
-.team11:hover img,
-.team12:hover img {
+.rayoBarcelona:hover img,
+.elBarrio:hover img,
+.UnokFC:hover img,
+.aniquiladores:hover img,
+.jijantes:hover img,
+.kuniSports:hover img,
+.troncos:hover img,
+.ultimateMostoles:hover img,
+.xbuyerTeam:hover img,
+.porcinos:hover img,
+.saiyans:hover img,
+.pioFC:hover img {
     transform: scale(1.1);
-    /* Escalar el cuadro al 110% en hover */
+}
+
+footer {
+    background-color: #000000;
+    border: 2px solid #ccc;
+}
+
+.multimedia {
+    text-align: center;
+    padding: 5%;
+}
+
+.multimedia a {
+    color: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.multimedia i {
+    margin: 0 1%;
+    /* Modifico el valor de como de separado quiero el contenido social multimedia */
+}
+
+.multimedia a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    padding-left: 1%;
+    color: gray;
+}
+
+.mapa {
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 815px) {
+    .teams {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        gap: 20px;
+    }
+
+    #logo {
+        width: 15%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .teams {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, auto);
+        gap: 20px;
+    }
+
+    #logo {
+        width: 15%;
+        height: auto;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    .mapa {
+        display: flex;
+        align-items: center;
+    }
+
+    .mapa iframe {
+        max-width: 100%;
+    }
 }
