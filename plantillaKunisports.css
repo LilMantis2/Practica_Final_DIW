@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #000, #0d00c5, #160d99);
+    background-image: linear-gradient(to bottom, #000, #ca00af, #FE70BD);
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -69,12 +69,12 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #160d99;
+    background-color: #FE70BD;
     color: #000;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #0d00c5;
+    background-color: #ca00af;
     color: #ffffff;
 }
 
