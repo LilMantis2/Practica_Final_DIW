@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #000, #c9c9c9, #ffffff);
+    background-image: linear-gradient(to bottom, #000, #ffffff, #ffffff);
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -69,13 +69,13 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #ffffff;
+    background-color: #cfdb1c;
     color: #000;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #c9c9c9;
-    color: #ffffff;
+    background-color: #978c8c;
+    color: #000000;
 }
 
 tbody tr:hover {
@@ -146,5 +146,13 @@ table img {
     .top-section img {
         width: 100px;
         margin-right: 0;
+    }
+
+    .multimedia a {
+        font-size: 0;
+    }
+
+    .multimedia a i {
+        font-size: 24px;
     }
 }

@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #000, #0d00c5, #160d99);
+    background-image: linear-gradient(to bottom, #000, #160d99, #160d99);
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -69,12 +69,12 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #160d99;
-    color: #000;
+    background-color: #8a0b0b;
+    color: #ffffff;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #0d00c5;
+    background-color: #0c038f;
     color: #ffffff;
 }
 
@@ -146,5 +146,13 @@ table img {
     .top-section img {
         width: 100px;
         margin-right: 0;
+    }
+
+    .multimedia a {
+        font-size: 0;
+    }
+
+    .multimedia a i {
+        font-size: 24px;
     }
 }

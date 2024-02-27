@@ -106,3 +106,13 @@ footer {
     padding-left: 1%;
     color: gray;
 }
+
+@media only screen and (max-width: 600px) {
+    .multimedia a {
+        font-size: 0;
+    }
+
+    .multimedia a i {
+        font-size: 24px;
+    }
+}

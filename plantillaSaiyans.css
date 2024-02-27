@@ -68,8 +68,8 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #e9a846;
-    color: #000;
+    background-color: #0e0183;
+    color: #ffffff;
 }
 
 tbody tr:nth-child(odd) {
@@ -145,5 +145,13 @@ table img {
     .top-section img {
         width: 100px;
         margin-right: 0;
+    }
+
+    .multimedia a {
+        font-size: 0;
+    }
+
+    .multimedia a i {
+        font-size: 24px;
     }
 }

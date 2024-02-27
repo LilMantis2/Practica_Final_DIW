@@ -252,4 +252,12 @@ footer {
     .mapa iframe {
         max-width: 100%;
     }
+
+    .multimedia a {
+        font-size: 0;
+    }
+
+    .multimedia a i {
+        font-size: 24px;
+    }
 }
